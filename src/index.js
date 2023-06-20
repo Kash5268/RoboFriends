@@ -19,7 +19,7 @@ const store = createStore(
   applyMiddleware(thunkMiddleware, logger)
 );
 
-ReactDOM.createRoot(document.getElementById("Card")).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <App robots={robots} />
   </Provider>

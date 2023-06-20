@@ -1,7 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
 import CardList from "../Components/CardList";
-import { robots } from "../Robots";
 import SearchBox from "../Components/SearchBox";
 import "./App.css";
 import Scroll from "../Components/Scroll";
